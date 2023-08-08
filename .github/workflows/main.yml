@@ -1,6 +1,9 @@
 name: serializer-cli
 
-on: [push]
+on:
+  push:
+    branches:
+      - '**'
 
 jobs:
   test:
@@ -18,5 +21,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run Tests
-      run: |
-        python -m unittest tests/test_cli.py
+      run: pytest
