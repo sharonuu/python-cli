@@ -3,20 +3,7 @@ from unittest.mock import patch, mock_open
 from src.cli import main
 from src.serializer import JsonSerializer, XmlSerializer
 import json
-from src.display import HtmlDisplay, PlainTextDisplay
-
-
-
-# def test_supported_formats_output(capfd):
-#     test_args = ['your_script_name.py', '--formats']
-
-#     with patch('sys.argv', test_args):
-#         main()
-
-#     captured = capfd.readouterr()
-#     assert "Supported formats:" in captured.out
-#     for format in SERIALIZER_FORMAT.keys():
-#         assert format in captured.out
+from src.display import PlainTextDisplay
 
 
 def test_basic_serialization_flow():
