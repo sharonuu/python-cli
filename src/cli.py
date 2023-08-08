@@ -3,8 +3,8 @@
 '''
 
 import argparse
-from display import HtmlDisplay, PlainTextDisplay
-from serializer import JsonSerializer, XmlSerializer
+from src.display import HtmlDisplay, PlainTextDisplay
+from src.serializer import JsonSerializer, XmlSerializer
 
 
 SERIALIZER_FORMAT = {
@@ -33,9 +33,9 @@ def main():
             print(key)
         exit(0)
 
-    if not args.input_file or not args.output_file or not args.display:
-        print("Error: Missing required arguments. Use --help for usage info.")
-        exit(1)
+    # if not args.input_file or not args.output_file or not args.display:
+    #     print("Error: Missing required arguments. Use --help for usage info.")
+    #     exit(1)
 
     input_format = str(args.input_file).split('.')[-1]
     output_format  =  str(args.output_file).split('.')[-1]

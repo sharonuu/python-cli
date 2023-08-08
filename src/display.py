@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from model import PersonalData
+from src.model import PersonalData
 
 # display interface
 class Display(ABC):
