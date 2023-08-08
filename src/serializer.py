@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import json
-from model import PersonalData
+from src.model import PersonalData
 import xml.etree.ElementTree as ET
 
 
