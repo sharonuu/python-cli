@@ -49,3 +49,6 @@ python cli.py --formats
 
 ## **Mock Data**
 Provided mock data sets in both JSON and XML formats to test and demonstrate the tool's functionality.
+
+## **Follow UP**
+- add additional storage formats: update SERIALIZER_FORMAT in src/cli.py, update src/serializer.py
