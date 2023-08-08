@@ -1,0 +1,22 @@
+[
+    {
+        "name": "John Doe",
+        "address": "123 Main St, Springfield, IL",
+        "phone_number": "+1-123-456-7890"
+    },
+    {
+        "name": "Jane Smith",
+        "address": "456 Elm St, Shelbyville, IL",
+        "phone_number": "+1-987-654-3210"
+    },
+    {
+        "name": "Alice Johnson",
+        "address": "789 Oak St, Capital City, IL",
+        "phone_number": "+1-555-666-7777"
+    },
+    {
+        "name": "Bob Williams",
+        "address": "101 Maple St, Ogdenville, IL",
+        "phone_number": "+1-444-555-6666"
+    }
+]
