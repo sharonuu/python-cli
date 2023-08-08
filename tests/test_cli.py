@@ -7,7 +7,7 @@ from src.display import PlainTextDisplay
 
 
 def test_basic_serialization_flow():
-    test_args = ['your_script_name.py', 'input.json', 'output.xml', 'text']
+    test_args = ['cli.py', 'input.json', 'output.xml', 'text']
 
     # Mock data
     data_content = {"key": "value"}
