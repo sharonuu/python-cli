@@ -5,22 +5,8 @@ from src.serializer import JsonSerializer, XmlSerializer
 import json
 from src.display import HtmlDisplay, PlainTextDisplay
 
-
-
-# def test_supported_formats_output(capfd):
-#     test_args = ['your_script_name.py', '--formats']
-
-#     with patch('sys.argv', test_args):
-#         main()
-
-#     captured = capfd.readouterr()
-#     assert "Supported formats:" in captured.out
-#     for format in SERIALIZER_FORMAT.keys():
-#         assert format in captured.out
-
-
 def test_basic_serialization_flow():
-    test_args = ['your_script_name.py', 'input.json', 'output.xml', 'text']
+    test_args = ['cli.py', 'input.json', 'output.xml', 'text']
 
     # Mock data
     data_content = {"key": "value"}
