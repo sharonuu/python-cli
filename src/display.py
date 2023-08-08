@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-
 from src.model import PersonalData
 
 # display interface
@@ -10,8 +9,7 @@ class Display(ABC):
 
 # implement plain text display
 class PlainTextDisplay(Display):
-    # def print(self, data:PersonalData):
-        # print(f"Name: {data.name}\nAddress: {data.address}\nPhone: {data.phone_number}")
+
     def print(self, data_list, output_file=None):
         content = ""
         for data in data_list:

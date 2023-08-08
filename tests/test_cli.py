@@ -3,7 +3,8 @@ from unittest.mock import patch, mock_open
 from src.cli import main
 from src.serializer import JsonSerializer, XmlSerializer
 import json
-from src.display import HtmlDisplay, PlainTextDisplay
+from src.display import PlainTextDisplay
+
 
 def test_basic_serialization_flow():
     test_args = ['cli.py', 'input.json', 'output.xml', 'text']
